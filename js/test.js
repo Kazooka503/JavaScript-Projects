@@ -1,4 +1,11 @@
-function addition_Function() {
-    var addition = 2 + 2;
-    document.getElementById("Math").innerHTML = "2 + 2 = " + addition;
+function my_Function() {
+    document.getElementById("Test").innerHTML = 0/0;
+}
+
+function tru() {
+    document.getElementById("True").innerHTML = isNaN('Example String');
+}
+
+function fal() {
+    document.getElementById("False").innerHTML = isNaN('5');
 }
